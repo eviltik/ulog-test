@@ -1,0 +1,33 @@
+{
+  "name": "ulog-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "dev": " node node_modules/webpack/bin/webpack.js serve --config ./bundler/webpack.dev.js --progress",
+    "build": "node node_modules/webpack/bin/webpack.js --config ./bundler/webpack.prod.js --progress"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eviltik/ulog-test.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/eviltik/ulog-test/issues"
+  },
+  "homepage": "https://github.com/eviltik/ulog-test#readme",
+  "dependencies": {
+    "@babel/core": "^7.15.8",
+    "babel-loader": "^8.2.2",
+    "copy-webpack-plugin": "^9.0.1",
+    "html-loader": "^2.1.2",
+    "html-webpack-plugin": "^5.3.2",
+    "mini-css-extract-plugin": "^2.4.2",
+    "portfinder-sync": "0.0.2",
+    "ulog": "^2.0.0-beta.19",
+    "webpack": "^5.58.1",
+    "webpack-cli": "^4.9.0",
+    "webpack-dev-server": "^4.3.1"
+  }
+}
